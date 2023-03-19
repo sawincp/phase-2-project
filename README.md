@@ -20,4 +20,3 @@ simple description
 ## Known Bugs
 
 -
-# phase-2-project
