@@ -1,0 +1,51 @@
+{
+    "avengers": [
+      {
+        "id": 1,
+        "name":"Tony Stark",
+        "alias":"Iron Man",
+        "placeofbirth":"Long Island, New York",
+        "firstapperance": "Tales of Suspense #39 (March, 1963)",
+        "image": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/346-iron-man.jpg"
+        
+      },
+      {
+        "id": 2,
+        "name":"Bruce Banner",
+        "alias":"Incredible Hulk",
+        "placeofbirth":"Dayton, Ohio",
+        "firstapperance": "Incredible Hulk #1 (May, 1962)",
+        "image": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/332-hulk.jpg"
+      },
+  
+      {
+        "id": 4,
+        "name":"Hank Pym",
+        "alias":"Ant-Man",
+        "placeofbirth":"Elmsford, New York",
+        "alignment": "Good",
+        "firstapperance": "Tales to Astonish #27 (January, 1962) (as Hank Pym)  Tales to Astonish #35 (September, 1962) (as Ant-Man)",
+        "image":"https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/30-ant-man.jpg"
+      }, 
+      
+      {
+        "id": 3,
+        "name":"Janet Van Dyne",
+        "alias":"The Wasp",
+        "placeofbirth":"Cresskill, New Jersey",
+        "firstapperance": "Tales to Astonish #44",
+        "image":"https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/708-wasp.jpg"
+      }, 
+  
+  
+      {
+        "id": 5,
+        "name":"Thor Odinson",
+        "alias":"Thor",
+        "placeofbirth":"Asgard",
+        "firstapperance": "Journey into Mystery #83 (August, 1962)",
+        "image":"https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/659-thor.jpg"
+      }
+    ]
+  }
+  
