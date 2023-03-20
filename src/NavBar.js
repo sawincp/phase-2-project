@@ -25,7 +25,7 @@ function NavBar() {
         style={linkStyles}
         /* add prop for activeStyle */
         activestyle={{
-          background: "darkblue",
+          background: "red",
         }}
       >
         Home
@@ -35,7 +35,7 @@ function NavBar() {
         exact='true'
         style={linkStyles}
         activestyle={{
-          background: "darkblue",
+          background: "red",
         }}
       >
         Team Avengers
