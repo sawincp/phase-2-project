@@ -17,11 +17,7 @@ function App() {
       <Route  exact path ="/heros" Component={Heros}/>
       <Route exact path='/heros/new' Component={HeroForm}/>
       <Route  path ="/heros/:id" Component={Heros}/>
-  
-
     </Routes>
-
-
   </div>
    
   );
