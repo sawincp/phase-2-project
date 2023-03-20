@@ -4,7 +4,7 @@
         "id": 1,
         "name":"Tony Stark",
         "alias":"Iron Man",
-        "polwerstats":{
+        "powerstats":{
             "intelligence": 100,
             "strength": 85,
             "speed": 58,
@@ -21,7 +21,7 @@
         "id": 2,
         "name":"Bruce Banner",
         "alias":"Incredible Hulk",
-        "polwerstats":{
+        "powerstats":{
             "intelligence": 88,
             "strength": 100,
             "speed": 63,
@@ -38,7 +38,7 @@
         "id": 4,
         "name":"Hank Pym",
         "alias":"Ant-Man",
-        "polwerstats":{
+        "powerstats":{
             "intelligence": 100,
             "strength": 18,
             "speed": 23,
@@ -56,7 +56,7 @@
         "id": 3,
         "name":"Janet Van Dyne",
         "alias":"The Wasp",
-        "polwerstats":{
+        "powerstats":{
             "intelligence": 63,
             "strength": 17,
             "speed": 58,
@@ -74,7 +74,7 @@
         "id": 5,
         "name":"Thor Odinson",
         "alias":"Thor",
-        "polwerstats":{
+        "powerstats":{
             "intelligence": 69,
             "strength": 100,
             "speed": 83,
