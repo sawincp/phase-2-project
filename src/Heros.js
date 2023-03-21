@@ -12,8 +12,6 @@ const Heros = () =>{
      )},[])
      if(!heros) return(<p>Loading..</p>)
 
-      console.log("heros:" ,heros)
-
     const hero = heros.map((hero)=>{
         return(
             <Hero

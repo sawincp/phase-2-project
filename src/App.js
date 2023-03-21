@@ -14,10 +14,10 @@ function App() {
   <div className="App">
     <NavBar />
     <Routes>
-      <Route  exact path ="/" Component={Home}/>
-      <Route  exact path ="/heros" Component={Heros}/>
+      <Route exact path ="/" Component={Home}/>
+      <Route exact path ="/heros" Component={Heros}/>
       <Route exact path='/heros/new' Component={HeroForm}/>
-      <Route  path ="/heros/:id" Component={Heros}/>
+      <Route path ="/heros/:id" Component={Heros}/>
     </Routes>
   </div>
    
