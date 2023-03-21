@@ -10,8 +10,9 @@ const Heros = () =>{
         .then(res => res.json())
         .then((data) =>{setHeros(data)}
      )},[])
+     if(!heros) return(<p>Loading..</p>)
 
-    //  console.log("heros:" ,heros)
+      console.log("heros:" ,heros)
 
     const hero = heros.map((hero)=>{
         return(
