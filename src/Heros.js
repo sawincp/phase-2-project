@@ -24,7 +24,7 @@ const Heros = () =>{
 
     return(
         <div className="Heros">
-            <h1>Earth's Mightest Heros:</h1>
+            <h1>Earth's Mightest Heros!</h1>
             <hr/>
             <ul>{hero}</ul>
         </div>
