@@ -10,7 +10,7 @@ const Home =()=>{
                 Led by Captain America, Iron Man, Thor, the Hulk, and later joined by heroes such as Black Widow, Hawkeye, and many others, the Avengers have faced countless threats to humanity, from alien invasions to mad scientists and super-powered villains.
                 With their unwavering courage, unbreakable spirit, and unshakeable bonds of friendship, the Avengers are an inspiration to us all. So, whether you're a lifelong fan or a newcomer to the world of Marvel Comics, we invite you to join us as we embark on a journey of heroism, adventure, and excitement.
 
-Welcome to the original Marvel Comic Avengers - assemble!
+                Avengers - assemble!
                 </p>
         </div>
     )

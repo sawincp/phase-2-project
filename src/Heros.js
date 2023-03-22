@@ -1,5 +1,7 @@
 import React, {useState, useEffect} from "react";
 import Hero from "./Hero";
+import NewButton from "./NewButton";
+
 
 const Heros = () =>{
 
@@ -25,6 +27,7 @@ const Heros = () =>{
     return(
         <div className="Heros">
             <h1>Earth's Mightest Heros!</h1>
+            <NewButton />
             <hr/>
             <ul>{hero}</ul>
         </div>
