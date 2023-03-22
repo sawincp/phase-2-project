@@ -1,6 +1,9 @@
 import React, {useState} from "react";
+import { useNavigate } from "react-router-dom"
 
 const HeroForm = ()=>{
+
+    let navigate = useNavigate()
 
     const [hero, setHero]= useState({
         name: '',
@@ -44,7 +47,11 @@ const HeroForm = ()=>{
             body: JSON.stringify(newHero)
         })
         .then(r => r.json())
-        .then(data=>{console.log(data)})
+        .then(data=>{
+            console.log(data)
+            navigate('/heros')
+        })
+        
     }
 
     return(
