@@ -1,81 +1,89 @@
 {
-    "avengers": [
-      {
-        "id": 1,
-        "name":"Tony Stark",
-        "alias":"Iron Man",
-        "intelligence": 100,
-        "strength": 85,
-        "speed": 58,
-        "durability": 85,
-        "power": 100,
-        "combat": 64,
-        "placeofbirth":"Long Island, New York",
-        "firstapperance": "Tales of Suspense #39 (March, 1963)",
-        "image": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/346-iron-man.jpg"
-        
-      },
-      {
-        "id": 2,
-        "name":"Bruce Banner",
-        "alias":"Incredible Hulk",
-        "intelligence": 88,
-        "strength": 100,
-        "speed": 63,
-        "durability": 100,
-        "power": 98,
-        "combat": 85,
-        "placeofbirth":"Dayton, Ohio",
-        "firstapperance": "Incredible Hulk #1 (May, 1962)",
-        "image": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/332-hulk.jpg"
-      },
-  
-      {
-        "id": 3,
-        "name":"Hank Pym",
-        "alias":"Ant-Man",
-        "intelligence": 100,
-        "strength": 18,
-        "speed": 23,
-        "durability": 28,
-        "power": 32,
-        "combat": 32,
-        "placeofbirth":"Elmsford, New York",
-        "alignment": "Good",
-        "firstapperance": "Tales to Astonish #27 (January, 1962) (as Hank Pym)  Tales to Astonish #35 (September, 1962) (as Ant-Man)",
-        "image":"https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/30-ant-man.jpg"
-      }, 
-      
-      {
-        "id": 4,
-        "name":"Janet Van Dyne",
-        "alias":"The Wasp",
-        "intelligence": 63,
-        "strength": 17,
-        "speed": 58,
-        "durability": 52,
-        "power": 29,
-        "combat": 42,
-        "placeofbirth":"Cresskill, New Jersey",
-        "firstapperance": "Tales to Astonish #44",
-        "image":"https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/708-wasp.jpg"
-      }, 
-  
-  
-      {
-        "id": 5,
-        "name":"Thor Odinson",
-        "alias":"Thor",
-        "intelligence": 69,
-        "strength": 100,
-        "speed": 83,
-        "durability": 100,
-        "power": 100,
-        "combat": 100,
-        "placeofbirth":"Asgard",
-        "firstapperance": "Journey into Mystery #83 (August, 1962)",
-        "image":"https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/659-thor.jpg"
-      }
-    ]
-  }
-  
+  "avengers": [
+    {
+      "id": 1,
+      "name": "Tony Stark",
+      "alias": "Iron Man",
+      "intelligence": 100,
+      "strength": 85,
+      "speed": 58,
+      "durability": 85,
+      "power": 100,
+      "combat": 64,
+      "placeofbirth": "Long Island, New York",
+      "firstapperance": "Tales of Suspense #39 (March, 1963)",
+      "image": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/346-iron-man.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Bruce Banner",
+      "alias": "Incredible Hulk",
+      "intelligence": 88,
+      "strength": 100,
+      "speed": 63,
+      "durability": 100,
+      "power": 98,
+      "combat": 85,
+      "placeofbirth": "Dayton, Ohio",
+      "firstapperance": "Incredible Hulk #1 (May, 1962)",
+      "image": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/332-hulk.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Hank Pym",
+      "alias": "Ant-Man",
+      "intelligence": 100,
+      "strength": 18,
+      "speed": 23,
+      "durability": 28,
+      "power": 32,
+      "combat": 32,
+      "placeofbirth": "Elmsford, New York",
+      "alignment": "Good",
+      "firstapperance": "Tales to Astonish #27 (January, 1962) (as Hank Pym)  Tales to Astonish #35 (September, 1962) (as Ant-Man)",
+      "image": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/30-ant-man.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Janet Van Dyne",
+      "alias": "The Wasp",
+      "intelligence": 63,
+      "strength": 17,
+      "speed": 58,
+      "durability": 52,
+      "power": 29,
+      "combat": 42,
+      "placeofbirth": "Cresskill, New Jersey",
+      "firstapperance": "Tales to Astonish #44",
+      "image": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/708-wasp.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Thor Odinson",
+      "alias": "Thor",
+      "intelligence": 69,
+      "strength": 100,
+      "speed": 83,
+      "durability": 100,
+      "power": 100,
+      "combat": 100,
+      "placeofbirth": "Asgard",
+      "firstapperance": "Journey into Mystery #83 (August, 1962)",
+      "image": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/659-thor.jpg"
+    },
+    {
+      "name": "Corey",
+      "alias": "The Man",
+      "intelligence": "100",
+      "strength": "80",
+      "speed": "90",
+      "durability": "75",
+      "power": "50",
+      "combat": "75",
+      "placeofbirth": "",
+      "firstapperance": "",
+      "image": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/7-adam-monroe.jpg",
+      "id": 6
+    }
+  ]
+}
