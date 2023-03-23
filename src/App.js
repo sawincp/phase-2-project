@@ -5,8 +5,8 @@ import Home from './Home'
 import Heros from './Heros';
 import HeroForm from './HeroForm';
 import NavBar from './NavBar';
+import Hero from './Hero'
 
-import './App.css';
 
 function App() {
 
@@ -17,7 +17,7 @@ function App() {
       <Route exact path ="/" Component={Home}/>
       <Route exact path ="/heros" Component={Heros}/>
       <Route exact path='/heros/new' Component={HeroForm}/>
-      <Route path ="/heros/:id" Component={Heros}/>
+      <Route path ="/heros/:id" Component={Hero}/>
     </Routes>
   </div>
    

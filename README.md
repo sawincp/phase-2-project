@@ -20,3 +20,6 @@ simple description
 ## Known Bugs
 
 -
+
+## References
+https://akabab.github.io/superhero-api/

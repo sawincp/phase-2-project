@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom"
 
 const HeroForm = ()=>{
@@ -47,10 +47,7 @@ const HeroForm = ()=>{
             body: JSON.stringify(newHero)
         })
         .then(r => r.json())
-        .then(data=>{
-            console.log(data)
-            navigate('/heros')
-        })
+        .then(navigate('/heros'))
         
     }
 
@@ -58,7 +55,7 @@ const HeroForm = ()=>{
         <div className="HeroForm">
             <h1>Create your own Hero!</h1>
             <hr></hr>
-            <form onSubmit={handleSubmit}>
+            <form className="Form" onSubmit={handleSubmit}>
                 <label> Name </label>
                 <input name="name" onChange={handleInputChange} type="text"/><br/>
                 <label> Alias </label>
@@ -80,7 +77,7 @@ const HeroForm = ()=>{
                 <label> Combat </label>
                 <input name="combat" onChange={handleInputChange} type="text"/><br/>
                 <label> Image </label>
-                <input name="image" onChange={handleInputChange} type="text"/>
+                <input name="image" onChange={handleInputChange} type="text"/><br/>
                 <input type="submit"/>
 
             </form>
