@@ -70,20 +70,6 @@
       "placeofbirth": "Asgard",
       "firstapperance": "Journey into Mystery #83 (August, 1962)",
       "image": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/659-thor.jpg"
-    },
-    {
-      "name": "Corey ",
-      "alias": "Beach Man",
-      "intelligence": "",
-      "strength": "",
-      "speed": "",
-      "durability": "",
-      "power": "",
-      "combat": "",
-      "placeofbirth": "",
-      "firstapperance": "",
-      "image": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/7-adam-monroe.jpg",
-      "id": 6
     }
   ]
 }
