@@ -27,28 +27,17 @@ const HeroForm = ()=>{
     const handleSubmit = (e)=>{
         e.preventDefault()
 
-        const newHero={
-            name: hero.name,
-            alias: hero.alias,
-            intelligence: hero.intelligence,
-            strength: hero.strength,
-            speed: hero.speed,
-            durability: hero.durability,
-            power: hero.power,
-            combat: hero.combat,
-            placeofbirth: hero.placeofbirth,
-            firstapperance: hero.firstapperance,
-            image: hero.image
-        }
         fetch('http://localhost:3001/avengers', {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify(newHero)
+            body: JSON.stringify(hero)
         })
         .then(r => r.json())
-        .then(navigate('/heros'))
+        .then(heroObject =>{
+            //add state update function here
+            navigate('/heros')})
         
     }
 

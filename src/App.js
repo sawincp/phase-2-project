@@ -17,7 +17,6 @@ function App() {
       <Route exact path ="/" Component={Home}/>
       <Route exact path ="/heros" Component={Heros}/>
       <Route exact path='/heros/new' Component={HeroForm}/>
-      <Route path ="/heros/:id" Component={Hero}/>
     </Routes>
   </div>
    
