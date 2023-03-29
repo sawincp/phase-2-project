@@ -29,6 +29,7 @@ const Hero = ({ hero }) =>{
         </Col>
         </Row>
         <hr/>
+
       </Container>
     );
   }

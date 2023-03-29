@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom"
 import { Form, Button, Col, Row } from 'react-bootstrap';
 
-const HeroForm = ()=>{
+const HeroForm = ({ onAddHero })=>{
 
     let navigate = useNavigate()
 
@@ -35,10 +35,10 @@ const HeroForm = ()=>{
             body: JSON.stringify(hero)
         })
         .then(r => r.json())
-        .then(heroObject =>{
-            //add state update function here
+        .then((newHero)=>{
+            onAddHero(newHero)
             navigate('/heros')})
-        
+               
     }
 
     return(
