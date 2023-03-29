@@ -7,11 +7,19 @@ This web applicaiton creates a Single Page Application (SPA) to show a list of M
 ## Technologies Used
 
 - React
+- JavaScript
 - React-Router-Dom
 - React Boostrap
 - CSS
 
 ## Description
+
+On page load, the user will be directed to the Home page of the application where they will see a introductory paragraph about the Marvel Avengers along with two navigation links at the top depicting where they can go within the application. One is labled Home the other is Avengers. 
+
+![Home Screen](/Images/Home_Screen.png)
+
+
+
 
 
 ## Setup/Installation Requirements
