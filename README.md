@@ -18,6 +18,16 @@ On page load, the user will be directed to the Home page of the application wher
 
 ![Home Screen](/Images/Home_Screen.png)
 
+When the user clicks on the Avengers link, it will take them to a separte page where it will list out five of the orginal Avengers along with some details for each. 
+
+![Character List](/Images/Character_List.png)
+
+
+
+
+
+
+
 
 
 
