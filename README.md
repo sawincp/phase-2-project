@@ -25,17 +25,9 @@ When the user clicks on the Avengers navlink, it will take them to a separte pag
 ![Hero Form](/Images/Hero_Form.png)
 
 
-Once the form is submitted, the user will be redirected to the Avengeres list with their newly created hero added at the end. 
+Once the form is submitted, the user will be redirected to the Avengers list with their newly created hero and their attributes added at the end. 
 
-
-
-
-
-
-
-
-
-
+![Updated Hero List](/Images/Hero_List.png)
 
 
 
