@@ -18,9 +18,15 @@ On page load, the user will be directed to the Home page of the application wher
 
 ![Home Screen](/Images/Home_Screen.png)
 
-When the user clicks on the Avengers navlink, it will take them to a separte page where it will list out five of the orginal Avengers along with some details for each. The user is also able to click the "add your own hero" button to have them fill out a form  add in their own hero with corresponsding attributes.
+When the user clicks on the Avengers navlink, it will take them to a separte page where it will list out five of the orginal Avengers along with some details for each. The user is able to click the "add your own hero" button to have them fill out a form to add their own hero with corresponsding attributes.
 
 ![Character List](/Images/Character_List.png)
+
+![Hero Form](/Images/Hero_Form.png)
+
+Once the form is submitted, the user will be redirected to the Avengeres list with their newly created hero added at the end. 
+
+
 
 
 

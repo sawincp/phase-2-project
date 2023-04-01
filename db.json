@@ -70,6 +70,20 @@
       "placeofbirth": "Asgard",
       "firstapperance": "Journey into Mystery #83 (August, 1962)",
       "image": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/659-thor.jpg"
+    },
+    {
+      "name": "Corey",
+      "alias": "",
+      "intelligence": "",
+      "strength": "",
+      "speed": "87",
+      "durability": "90",
+      "power": "100",
+      "combat": "75",
+      "placeofbirth": "",
+      "firstapperance": "",
+      "image": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/7-adam-monroe.jpg",
+      "id": 6
     }
   ]
 }
