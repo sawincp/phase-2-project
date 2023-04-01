@@ -40,12 +40,9 @@ Once the form is submitted, the user will be redirected to the Avengers list wit
 - In terminal run json-server --watch db.json --port 3001 to start db.json server
 - In terminal run npm start to start development server in browser
 
-## Known Bugs
-
--
 
 ## References
-https://akabab.github.io/superhero-api/
-https://react.dev/reference/react
-https://reactrouter.com/en/main
-https://react-bootstrap.github.io/
+- https://akabab.github.io/superhero-api/
+- https://react.dev/reference/react
+- https://reactrouter.com/en/main
+- https://react-bootstrap.github.io/
