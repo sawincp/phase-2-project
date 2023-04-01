@@ -59,7 +59,26 @@ const HeroForm = ({ onAddHero })=>{
                         <Form.Label>Alias</Form.Label>
                             <Form.Control
                                 type="text"
-                                name="name"
+                                name="alias"
+                                onChange={handleInputChange}
+                                />
+                    </Form.Group>
+                </Row>
+
+                <Row className="mb-3">
+                    <Form.Group as={Col} controlId="born">
+                        <Form.Label>Born</Form.Label>
+                            <Form.Control
+                                type="text"
+                                name="born"
+                                onChange={handleInputChange}
+                                />
+                    </Form.Group>
+                    <Form.Group as={Col} controlId="appearance">
+                        <Form.Label>First Appearance</Form.Label>
+                            <Form.Control
+                                type="text"
+                                name="appearance"
                                 onChange={handleInputChange}
                                 />
                     </Form.Group>
