@@ -65,7 +65,7 @@ const HeroForm = ({ onAddHero })=>{
                     </Form.Group>
                 </Row>
 
-                <Row className="mb-3">
+                <Row>
                     <Form.Group as={Col} controlId="born">
                         <Form.Label>Born</Form.Label>
                             <Form.Control
@@ -74,8 +74,9 @@ const HeroForm = ({ onAddHero })=>{
                                 onChange={handleInputChange}
                                 />
                     </Form.Group>
+                
                     <Form.Group as={Col} controlId="appearance">
-                        <Form.Label>First Appearance</Form.Label>
+                        <Form.Label>First Appeared</Form.Label>
                             <Form.Control
                                 type="text"
                                 name="appearance"
@@ -83,6 +84,8 @@ const HeroForm = ({ onAddHero })=>{
                                 />
                     </Form.Group>
                 </Row>
+
+                
                 
                 <Row>
                     <Form.Group as={Col} controlId="intelligence">
