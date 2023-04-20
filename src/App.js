@@ -10,6 +10,8 @@ import NavBar from './NavBar';
 function App() {
 
   const [heros, setHeros]=useState([])
+  const [searchTerm, setSearchTerm]= useState('')
+
 
 
   useEffect(()=>{
@@ -17,12 +19,24 @@ function App() {
       .then(res => res.json())
       .then((data) =>{setHeros(data)}
    )},[])
+   
    if(!heros) return(<p>Loading..</p>)
 
+   
+   
    function handleAddHero(newHero){
     setHeros([...heros, newHero])
+
    }
 
+   function handleDeleteHero(heroToDelete){
+    const updatedHeros = heros.filter((hero)=> hero.id !== heroToDelete.id)
+    setHeros(updatedHeros)
+   }
+
+   const displayHeros = heros.filter((hero)=>{
+    return hero.alias.toLowerCase().includes(searchTerm.toLowerCase())
+   })
 
 
   return (
@@ -30,9 +44,10 @@ function App() {
     <NavBar />
     <Routes>
       <Route exact path ="/" element={<Home />}/>
-      <Route exact path ="/heros" element={<Heros heros={heros} />}/>
+      <Route exact path ="/heros" element={<Heros heros={ displayHeros } onDeleteHero={handleDeleteHero} searchTerm={searchTerm} onSearchChange={setSearchTerm}/>}/>
       <Route exact path='/heros/new' element={<HeroForm onAddHero={handleAddHero} />}/>
     </Routes>
+    
   </div>
    
   );

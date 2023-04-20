@@ -2,12 +2,22 @@ import React from "react";
 import { Container, Row, Col } from 'react-bootstrap'
 
 
-const Hero = ({ hero }) =>{
+const Hero = ({ hero, onDeleteHero }) =>{
 
-    const { name, alias, intelligence, strength, speed, durability, power, combat, placeofbirth, firstapperance, image}= hero
+    const { id, name, alias, intelligence, strength, speed, durability, power, combat, placeofbirth, firstapperance, image}= hero
+
+    function handleDeleteClick() {
+      fetch(`http://localhost:3001/avengers/${id}`, {
+        method: "DELETE",
+      })
+        .then((r) => r.json())
+        .then(() => {
+          onDeleteHero(hero);
+        });
+    }
 
     return(
-        <Container>
+      <Container>
         <Row> 
         <Col>
           <p>{alias}</p>
@@ -28,6 +38,7 @@ const Hero = ({ hero }) =>{
             <p>Combat: {combat}</p>
         </Col>
         </Row>
+          <button onClick={handleDeleteClick}>Delete</button>
         <hr/>
 
       </Container>

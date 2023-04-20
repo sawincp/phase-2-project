@@ -1,16 +1,17 @@
 import React from "react";
 import Hero from "./Hero";
+import Search from "./Search";
 import NewButton from "./NewButton";
 
 
-const Heros = ({heros}) =>{
- 
-     const hero = heros.map((hero)=>{
+const Heros = ({ heros, searchTerm, onSearchChange, onDeleteHero }) =>{
+
+     const heroList = heros.map((hero)=>{
         return(
                 <Hero
                 key={hero.id}
                 hero={hero}
-                />
+                onDeleteHero={ onDeleteHero }/>
         )
         
     })
@@ -18,9 +19,10 @@ const Heros = ({heros}) =>{
     return(
         <div className="Heros">
             <h1>Earth's Mightest Heros!</h1>
-            <NewButton />
+            <NewButton /><br></br>
+            <Search searchTerm= {searchTerm} onSearchChange={onSearchChange}  />
             <hr/>
-            <ul>{hero}</ul>
+            <ul>{heroList}</ul>
         </div>
 
 
